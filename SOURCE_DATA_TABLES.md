@@ -1,8 +1,8 @@
 # Commerce Retail Operations Suite Source Data Tables
 
-Mapped source projects: 7
+Mapped source projects: 10
 
-Detected source tables: 323
+Detected source tables: 397
 
 | Source Project | Table | Framework | Columns | Source File |
 | --- | --- | --- | ---: | --- |
@@ -72,6 +72,44 @@ Detected source tables: 323
 | AIMarketplaceBuilderPlatform | translations | SQL | 8 | server/schema.sql |
 | AIMarketplaceBuilderPlatform | trip_plans | SQL | 9 | server/schema.sql |
 | AIMarketplaceBuilderPlatform | users | SQL | 5 | server/schema.sql |
+| AIPawnShopSecondhandDealer | ai_valuations | SQL | 6 | server/routes/ai.js |
+| AIPawnShopSecondhandDealer | atf_firearm_records | SQL | 9 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | auction_items | SQL | 10 | server/schema.sql |
+| AIPawnShopSecondhandDealer | auctions | SQL | 7 | server/schema.sql |
+| AIPawnShopSecondhandDealer | cash_drawer_transactions | SQL | 9 | server/schema.sql |
+| AIPawnShopSecondhandDealer | cash_drawers | SQL | 10 | server/schema.sql |
+| AIPawnShopSecondhandDealer | comp_scrape_results | SQL | 6 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | customers | SQL | 19 | server/schema.sql |
+| AIPawnShopSecondhandDealer | firearm_log | SQL | 18 | server/schema.sql |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_auctions_without_auction.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_cash.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_customers_without_customer.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_hold.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_limited_atf_firearms_tracking_integration_some_int.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_audit_trail_dedicated_module_grep_showed_0_audi.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_customer_id_verification_system_age_address_for.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_integration_with_ncic_stolen_goods_databases_fb.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_mobile_app_for_showroom_floor_staff.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_multi.js |
+| AIPawnShopSecondhandDealer | gap_features | SQL | 8 | server/routes/gapFeat_no_webhooks_for_stolen.js |
+| AIPawnShopSecondhandDealer | hold_periods | SQL | 13 | server/schema.sql |
+| AIPawnShopSecondhandDealer | idv_verifications | SQL | 8 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | inventory | SQL | 20 | server/schema.sql |
+| AIPawnShopSecondhandDealer | inventory_transfers | SQL | 11 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | layaway_payments | SQL | 6 | server/schema.sql |
+| AIPawnShopSecondhandDealer | layaways | SQL | 13 | server/schema.sql |
+| AIPawnShopSecondhandDealer | loan_extensions | SQL | 8 | server/schema.sql |
+| AIPawnShopSecondhandDealer | loan_payments | SQL | 7 | server/schema.sql |
+| AIPawnShopSecondhandDealer | loans | SQL | 14 | server/schema.sql |
+| AIPawnShopSecondhandDealer | locations | SQL | 6 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | ncic_lookups | SQL | 7 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | notifications | SQL | 9 | server/schema.sql |
+| AIPawnShopSecondhandDealer | outreach_messages | SQL | 9 | server/routes/extensions.js |
+| AIPawnShopSecondhandDealer | police_report_items | SQL | 9 | server/schema.sql |
+| AIPawnShopSecondhandDealer | police_reports | SQL | 9 | server/schema.sql |
+| AIPawnShopSecondhandDealer | precious_metals_log | SQL | 14 | server/schema.sql |
+| AIPawnShopSecondhandDealer | receipts | SQL | 12 | server/schema.sql |
+| AIPawnShopSecondhandDealer | users | SQL | 6 | server/schema.sql |
 | AIPricingOptimizer | ai_insights | SQL | 9 | backend/seed.js |
 | AIPricingOptimizer | bundle_recommendations | SQL | 13 | backend/seed.js |
 | AIPricingOptimizer | competitor_price_tracking | SQL | 13 | backend/seed.js |
@@ -110,6 +148,42 @@ Detected source tables: 323
 | AIPricingOptimizer | security_headers | SQL | 9 | backend/seed.js |
 | AIPricingOptimizer | session_logs | SQL | 9 | backend/seed.js |
 | AIPricingOptimizer | users | SQL | 6 | backend/seed.js |
+| AIVirtualShowroomBuilder | ai_descriptions | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | ai_results | SQL | 6 | server/db.js |
+| AIVirtualShowroomBuilder | ar_tryons | SQL | 11 | server/seed.js |
+| AIVirtualShowroomBuilder | conversion_events | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | customer_analytics | SQL | 9 | server/seed.js |
+| AIVirtualShowroomBuilder | customers | SQL | 9 | server/seed.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapLimitedECommercePlatformIntegrationOnlyAGenericIntegrations.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoAiDrivenPersonalizedProductRecommendations.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoAiGenerated3dModelAutoRiggingFromPhotos.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoAiVisualMerchandisingOptimizer.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoCustomerPathHeatmapVisualization.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoNativeWebarWebxrPlatformIntegration.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoNotificationsSubsystem.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoPosInventorySync.js |
+| AIVirtualShowroomBuilder | gap_features | SQL | 6 | server/routes/gapNoWebhooks.js |
+| AIVirtualShowroomBuilder | inventory | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | orders | SQL | 8 | server/seed.js |
+| AIVirtualShowroomBuilder | price_optimizations | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | product_3d_models | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | products | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | promotions | SQL | 12 | server/seed.js |
+| AIVirtualShowroomBuilder | reviews | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | store_layouts | SQL | 11 | server/seed.js |
+| AIVirtualShowroomBuilder | store_themes | SQL | 10 | server/seed.js |
+| AIVirtualShowroomBuilder | style_recommendations | SQL | 9 | server/seed.js |
+| AIVirtualShowroomBuilder | users | SQL | 6 | server/seed.js |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/supplier-directory-and-onboarding-workflow/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/returns-workflow/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/product-catalog-import-from-common-marketplaces-aliexpress-c/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/payment-processing/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/order-routing-to-fulfillment-partners/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/multi-store-integration-shopify-woocommerce/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-nonai-dropshipping/customer-support-ticketing/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-ai-dropshipping/ai-fraud-scam-supplier-detection/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-ai-dropshipping/ai-demand-forecasting-per-sku/route.ts |
+| dropShipping | gap_features | SQL | 5 | src/app/api/gap-ai-dropshipping/ai-competitor-price-scraping-and-matching/route.ts |
 | ebay | addresses | SQL | 14 | database/schema.sql |
 | ebay | admin_actions | SQL | 8 | database/schema_additions.sql |
 | ebay | ai_message_suggestions | SQL | 10 | database/migrations/add_latest_features.sql |

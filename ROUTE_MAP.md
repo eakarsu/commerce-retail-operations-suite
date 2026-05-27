@@ -7,6 +7,15 @@ Primary routes:
 - `/profiles`
 
 Feature routes:
+- `/store-margin-review`
+- `/supplier-fulfillment-risk`
+- `/dropship-product-research`
+- `/buyer-experience-review`
+- `/showroom-product-scenes`
+- `/virtual-showroom-builder`
+- `/compliance-hold-review`
+- `/secondhand-inventory`
+- `/pawn-intake`
 - `/orders`
 - `/customers`
 - `/catalog`

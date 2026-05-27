@@ -10,6 +10,51 @@ export type SourceDashboardAction = {
 
 export const sourceDashboardActions: SourceDashboardAction[] = [
   {
+    "id": "drop-shipping",
+    "label": "Drop Shipping",
+    "description": "Open Drop Shipping workflows elevated from dropShipping.",
+    "href": "/dropship-product-research",
+    "sourceProjects": [
+      "dropShipping"
+    ],
+    "examples": [
+      "Dropship Product Research",
+      "Supplier Fulfillment Risk",
+      "Store Margin Review"
+    ],
+    "count": 1
+  },
+  {
+    "id": "virtual-showroom",
+    "label": "Virtual Showroom",
+    "description": "Open Virtual Showroom workflows elevated from AIVirtualShowroomBuilder.",
+    "href": "/virtual-showroom-builder",
+    "sourceProjects": [
+      "AIVirtualShowroomBuilder"
+    ],
+    "examples": [
+      "Virtual Showroom Builder",
+      "Showroom Product Scenes",
+      "Buyer Experience Review"
+    ],
+    "count": 1
+  },
+  {
+    "id": "pawn-shop-secondhand-dealer",
+    "label": "Pawn Shop Secondhand Dealer",
+    "description": "Open Pawn Shop Secondhand Dealer workflows elevated from AIPawnShopSecondhandDealer.",
+    "href": "/pawn-intake",
+    "sourceProjects": [
+      "AIPawnShopSecondhandDealer"
+    ],
+    "examples": [
+      "Pawn Intake",
+      "Secondhand Inventory",
+      "Compliance Hold Review"
+    ],
+    "count": 1
+  },
+  {
     "id": "ai-assistant",
     "label": "AI Assistant",
     "description": "Run source-derived AI assistant workflows and prompts.",

@@ -1,5 +1,47 @@
 export const sourceProjectTools = [
   {
+    "id": "drop-shipping-copilot",
+    "title": "Drop Shipping Copilot",
+    "category": "Drop Shipping",
+    "description": "Focused Drop Shipping AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Drop Shipping context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Drop Shipping context",
+    "outputLabel": "Drop Shipping AI response",
+    "signals": [
+      "Dropship Product Research",
+      "Supplier Fulfillment Risk",
+      "Store Margin Review"
+    ]
+  },
+  {
+    "id": "virtual-showroom-copilot",
+    "title": "Virtual Showroom Copilot",
+    "category": "Virtual Showroom",
+    "description": "Focused Virtual Showroom AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Virtual Showroom context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Virtual Showroom context",
+    "outputLabel": "Virtual Showroom AI response",
+    "signals": [
+      "Virtual Showroom Builder",
+      "Showroom Product Scenes",
+      "Buyer Experience Review"
+    ]
+  },
+  {
+    "id": "pawn-shop-secondhand-dealer-copilot",
+    "title": "Pawn Shop Secondhand Dealer Copilot",
+    "category": "Pawn Shop Secondhand Dealer",
+    "description": "Focused Pawn Shop Secondhand Dealer AI tool elevated inside the current merged suite.",
+    "defaultPrompt": "Review the Pawn Shop Secondhand Dealer context. Return a professional summary, risks, missing evidence, next actions, and audit-ready outputs.",
+    "inputLabel": "Pawn Shop Secondhand Dealer context",
+    "outputLabel": "Pawn Shop Secondhand Dealer AI response",
+    "signals": [
+      "Pawn Intake",
+      "Secondhand Inventory",
+      "Compliance Hold Review"
+    ]
+  },
+  {
     "id": "ai-carbon-credit-marketplace-verifier-source-workflow",
     "title": "AI Carbon Credit Marketplace Verifier Source Workflow",
     "category": "Source Project Coverage",

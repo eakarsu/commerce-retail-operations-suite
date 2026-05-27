@@ -10,6 +10,117 @@ export type SourceAIToolField = {
 };
 
 export const sourceAIToolFieldsByToolId: Record<string, SourceAIToolField[]> = {
+  "drop-shipping-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Drop Shipping workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "dropShipping"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Drop Shipping source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "dropShipping"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "dropShipping"
+    }
+  ],
+  "virtual-showroom-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Virtual Showroom workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIVirtualShowroomBuilder"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Virtual Showroom source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIVirtualShowroomBuilder"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIVirtualShowroomBuilder"
+    }
+  ],
+  "pawn-shop-secondhand-dealer-copilot": [
+    {
+      "name": "objective",
+      "label": "Objective",
+      "type": "textarea",
+      "defaultValue": "Improve the Pawn Shop Secondhand Dealer workflow and produce audit-ready next actions.",
+      "placeholder": "Describe the goal",
+      "options": [],
+      "required": true,
+      "source": "AIPawnShopSecondhandDealer"
+    },
+    {
+      "name": "source_context",
+      "label": "Source Context",
+      "type": "textarea",
+      "defaultValue": "Paste Pawn Shop Secondhand Dealer source details, notes, records, or documents.",
+      "placeholder": "Paste source context",
+      "options": [],
+      "required": true,
+      "source": "AIPawnShopSecondhandDealer"
+    },
+    {
+      "name": "output_format",
+      "label": "Output Format",
+      "type": "select",
+      "defaultValue": "Action plan",
+      "placeholder": "Select output format",
+      "options": [
+        "Action plan",
+        "Executive summary",
+        "Evidence table",
+        "Checklist"
+      ],
+      "required": true,
+      "source": "AIPawnShopSecondhandDealer"
+    }
+  ],
   "ai-carbon-credit-marketplace-verifier-agentic-verifier-7yfye6-exact-ai": [
     {
       "name": "context",

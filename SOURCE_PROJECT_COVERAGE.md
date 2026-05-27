@@ -9,3 +9,6 @@
 | AiECommerceAgent | 0 | 0 | 1 | 14 | backend/src/services/openrouter<br>frontend/tailwind.config<br>frontend/src/main<br>frontend/src/pages/Campaigns<br>backend/src/utils/parseAIJson |
 | ebay | 0 | 0 | 0 | 19 | frontend/src/pages/AIDemandReputation<br>frontend/src/pages/AIFeatures<br>frontend/src/pages/DailyDeals<br>frontend/src/pages/DisputeDetail<br>frontend/src/pages/OrderDetail |
 | shopify | 0 | 0 | 1 | 29 | src/lib/actions/fulfillment<br>tailwind.config<br>src/lib/ai-client<br>src/lib/ai-rate-limit<br>src/lib/email |
+| AIPawnShopSecondhandDealer | 0 | 0 | 0 | 1 | Pawn Intake<br>Secondhand Inventory<br>Compliance Hold Review |
+| AIVirtualShowroomBuilder | 0 | 0 | 0 | 1 | Virtual Showroom Builder<br>Showroom Product Scenes<br>Buyer Experience Review |
+| dropShipping | 0 | 0 | 0 | 1 | Dropship Product Research<br>Supplier Fulfillment Risk<br>Store Margin Review |
